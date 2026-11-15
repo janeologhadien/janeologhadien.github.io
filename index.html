@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jane Ologhadien | Cloud Infrastructure &amp; Data Engineer</title>
+<meta name="description" content="Jane Ologhadien, cloud infrastructure and data engineer with 5+ years' experience, AWS Solutions Architect Associate and Microsoft Azure Administrator Associate (AZ-104). Azure and AWS projects covering IaC, cloud security, identity governance, FinOps, CI/CD and compliance tooling.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://janeologhadien.github.io/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Jane Ologhadien | Cloud Infrastructure &amp; Data Engineer">
+<meta property="og:description" content="Azure and AWS portfolio: IaC, cloud security, identity governance, FinOps and compliance tooling.">
+<meta property="og:url" content="https://janeologhadien.github.io/">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Person","name":"Jane Ologhadien","jobTitle":"Cloud Infrastructure & Data Engineer","url":"https://janeologhadien.github.io/","hasCredential":["AWS Certified Solutions Architect – Associate","Microsoft Certified: Azure Administrator Associate (AZ-104)"],"knowsAbout":["Microsoft Azure","AWS","Bicep","Terraform","Cloud Security","FinOps","CI/CD"]}
+</script>
+<style>
+  :root{
+    --bg:#fafaf7; --surface:#ffffff; --ink:#0f172a; --body:#1f2937; --sub:#475569; --line:#e2e8f0;
+    --brand:#4338ca; --brand-ink:#ffffff; --brand-soft:#eef2ff;
+    --c1:#4338ca; --c2:#0f766e; --c3:#b45309; --c4:#be123c; --c5:#1d4ed8;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;background:var(--bg);color:var(--body);font-family:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;line-height:1.6;font-size:16px}
+  a{color:var(--brand)}
+  .wrap{max-width:1120px;margin:0 auto;padding:0 24px}
+
+  /* nav */
+  nav{position:sticky;top:0;z-index:10;background:rgba(250,250,247,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+  nav .wrap{display:flex;align-items:center;justify-content:space-between;height:64px}
+  .logo{font-weight:800;color:var(--ink);text-decoration:none;font-size:17px;letter-spacing:-.01em}
+  .logo span{color:var(--brand)}
+  .links{display:flex;gap:22px;align-items:center}
+  .links a{color:var(--ink);text-decoration:none;font-weight:600;font-size:15px}
+  .links a:hover{color:var(--brand)}
+
+  /* hero */
+  .hero{position:relative;overflow:hidden;padding:88px 0 72px;border-bottom:1px solid var(--line)}
+  .hero::before{content:"";position:absolute;right:-180px;top:-160px;width:560px;height:560px;border-radius:50%;
+    background:radial-gradient(circle at 30% 30%,#c7d2fe 0,#e0e7ff 40%,transparent 70%);z-index:0}
+  .hero .wrap{position:relative;z-index:1}
+  .badge{display:inline-flex;align-items:center;gap:8px;background:var(--surface);border:1px solid var(--line);color:var(--ink);font-weight:600;font-size:14px;padding:6px 14px;border-radius:999px}
+  .badge i{width:8px;height:8px;border-radius:50%;background:#16a34a;display:inline-block}
+  h1{font-size:clamp(42px,7vw,76px);line-height:1.02;letter-spacing:-.035em;color:var(--ink);margin:0 0 10px;font-weight:800}
+  .role{font-size:clamp(20px,2.4vw,26px);font-weight:600;color:var(--brand);margin:0 0 20px}
+  .intro{max-width:700px;font-size:18px;color:var(--body);margin:0}
+  .hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}
+  .stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;margin-top:48px;max-width:960px}
+  .stat{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:16px 18px}
+  .stat b{display:block;font-size:28px;color:var(--ink);letter-spacing:-.02em;line-height:1.1}
+  .stat span{font-size:14px;color:var(--sub);font-weight:500}
+
+  /* buttons */
+  .btn{display:inline-flex;align-items:center;justify-content:center;gap:6px;font-weight:700;font-size:15px;padding:11px 18px;border-radius:10px;text-decoration:none;border:2px solid transparent;transition:transform .15s, box-shadow .15s, background .15s}
+  .btn.primary{background:var(--brand);color:var(--brand-ink)}
+  .btn.primary:hover{background:#3730a3;transform:translateY(-1px);box-shadow:0 6px 16px rgba(67,56,202,.28)}
+  .btn.ghost{background:var(--surface);color:var(--ink);border-color:var(--ink)}
+  .btn.ghost:hover{background:var(--ink);color:#fff}
+  .card .btn{font-size:14px;padding:9px 14px}
+
+  /* sections */
+  section{padding:72px 0 16px}
+  .kicker{font-size:13px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--brand);margin:0 0 6px}
+  h2{font-size:clamp(30px,4vw,40px);letter-spacing:-.025em;color:var(--ink);margin:0 0 10px;font-weight:800}
+  .lead{color:var(--sub);font-size:17px;margin:0 0 8px;max-width:640px}
+  .notice{display:flex;gap:12px;align-items:flex-start;background:var(--brand-soft);border:1px solid #c7d2fe;color:var(--ink);border-radius:12px;padding:14px 18px;margin:22px 0 8px;font-size:15.5px;font-weight:500}
+  .notice b{color:var(--brand)}
+
+  .group{margin-top:40px}
+  .group-title{display:flex;align-items:center;gap:10px;font-size:20px;color:var(--ink);margin:0 0 16px;font-weight:800;letter-spacing:-.01em}
+  .group-title .dot{width:12px;height:12px;border-radius:4px;background:var(--accent)}
+  .group-title .count{font-size:13px;font-weight:700;color:var(--accent);background:color-mix(in srgb,var(--accent) 12%,white);padding:2px 9px;border-radius:999px}
+  .c1{--accent:var(--c1)} .c2{--accent:var(--c2)} .c3{--accent:var(--c3)} .c4{--accent:var(--c4)} .c5{--accent:var(--c5)}
+
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:18px}
+  .card{position:relative;background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:22px 22px 20px;display:flex;flex-direction:column;transition:transform .15s, box-shadow .15s, border-color .15s}
+  .card::before{content:"";position:absolute;left:0;top:0;right:0;height:4px;border-radius:16px 16px 0 0;background:var(--accent)}
+  .card:hover{transform:translateY(-3px);box-shadow:0 14px 30px rgba(15,23,42,.08);border-color:color-mix(in srgb,var(--accent) 35%,white)}
+  .card h4{margin:4px 0 8px;font-size:18px;color:var(--ink);letter-spacing:-.01em;line-height:1.3}
+  .card p{margin:0 0 16px;color:var(--body);font-size:15px;flex:1}
+  .tags{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:18px}
+  .tag{font-size:12.5px;font-weight:700;color:var(--accent);background:color-mix(in srgb,var(--accent) 10%,white);padding:3px 9px;border-radius:6px}
+  .actions{display:flex;gap:10px;flex-wrap:wrap}
+
+  .skills{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}
+  .skill{background:var(--surface);border:1px solid var(--line);color:var(--ink);font-weight:600;font-size:15px;padding:8px 14px;border-radius:999px}
+
+  .cta-band{margin:80px 0 0;background:var(--ink);color:#fff;border-radius:24px;padding:48px 40px;display:flex;align-items:center;justify-content:center;gap:24px;flex-wrap:wrap}
+  .cta-band h2{color:#fff;margin:0}
+  .cta-band .btn.primary{background:#fff;color:var(--ink);font-size:16px;padding:14px 24px}
+  .cta-band .btn.primary:hover{background:#e0e7ff;box-shadow:none}
+
+  footer{padding:40px 0 48px;color:var(--sub);font-size:14px;font-weight:500;text-align:center}
+
+  @media (max-width:640px){
+    .links a:not(.btn){display:none}
+    .stats{grid-template-columns:1fr 1fr}
+    .cta-band{padding:32px 24px}
+  }
+</style>
+</head>
+<body>
+<nav>
+  <div class="wrap">
+    <a class="logo" href="#top">Jane Ologhadien<span>.</span></a>
+    <div class="links">
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a class="btn primary" href="mailto:jane.ologh@gmail.com?subject=Access%20request%3A%20portfolio&amp;body=Hi%20Jane%2C%0A%0AI%27d%20like%20to%20review%20the%20code%20for%3A%20portfolio%0A%0AName%3A%0ACompany%20/%20role%3A%0A%0AThanks">Request access</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <div class="wrap">
+    <h1>Jane Ologhadien</h1>
+    <p class="role">Cloud Infrastructure &amp; Data Engineer</p>
+    <p class="intro">5+ years across systems administration, cloud infrastructure and data engineering. I build and document end-to-end projects on Azure and AWS: real deployments, genuine constraints, and honest write-ups of what broke and how it was fixed.</p>
+    <div class="hero-actions">
+      <a class="btn primary" href="#projects">View projects</a>
+      <a class="btn ghost" href="mailto:jane.ologh@gmail.com?subject=Access%20request%3A%20portfolio&amp;body=Hi%20Jane%2C%0A%0AI%27d%20like%20to%20review%20the%20code%20for%3A%20portfolio%0A%0AName%3A%0ACompany%20/%20role%3A%0A%0AThanks">Request access</a>
+    </div>
+    <div class="stats">
+      <div class="stat"><b>5+</b><span>Years' experience</span></div>
+      <div class="stat"><b>17</b><span>Documented projects</span></div>
+      <div class="stat"><b>AWS SAA</b><span>AWS Solutions Architect Associate</span></div>
+      <div class="stat"><b>AZ-104</b><span>Microsoft Azure Administrator Associate</span></div>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <section id="projects">
+    <p class="kicker">Portfolio</p>
+    <h2>Projects</h2>
+    <p class="lead">Tools and labs built around the problems cloud teams in regulated industries face.</p>
+    <div class="notice"><span>🔒</span><span>Source code is private. Click <b>Request access</b> on any project and I'll send you the repository link.</span></div>
+    <div class="group c1"><h3 class="group-title"><span class="dot"></span>Developer tooling<span class="count">2</span></h3><div class="grid">
+<article class="card"><h4>CloudCheck</h4><p>VS Code extension for inline compliance linting of Bicep, Terraform and ARM templates. 38 rules across 11 categories, mapped to the CIS Azure Benchmark and the Cloud Adoption Framework. Published on the VS Code Marketplace.</p><div class="tags"><span class="tag">VS Code</span><span class="tag">CIS Benchmark</span><span class="tag">IaC</span></div><div class="actions"><a class="btn primary" href="mailto:jane.ologh@gmail.com?subject=Access%20request%3A%20CloudCheck&amp;body=Hi%20Jane%2C%0A%0AI%27d%20like%20to%20review%20the%20code%20for%3A%20CloudCheck%0A%0AName%3A%0ACompany%20/%20role%3A%0A%0AThanks">Request access</a></div></article>
+<article class="card"><h4>CloudCheck Action</h4><p>GitHub Action that scans infrastructure code changed in a pull request, posts a compliance score and findings table as a PR comment, and fails the build on critical issues.</p><div class="tags"><span class="tag">GitHub Actions</span><span class="tag">Shift-left security</span></div><div class="actions"><a class="btn primary" href="mailto:jane.ologh@gmail.com?subject=Access%20request%3A%20CloudCheck%20Action&amp;body=Hi%20Jane%2C%0A%0AI%27d%20like%20to%20review%20the%20code%20for%3A%20CloudCheck%20Action%0A%0AName%3A%0ACompany%20/%20role%3A%0A%0AThanks">Request access</a></div></article>
+</div></div>
+<div class="group c2"><h3 class="group-title"><span class="dot"></span>FinOps &amp; web<span class="count">3</span></h3><div class="grid">
+<article class="card"><h4>Cloud Cost Anomaly Alerter</h4><p>Detects Azure spend spikes against a rolling 7-day baseline, explains the likely cause in plain English, gives the exact CLI fix, projects month-end spend and alerts via Slack or Teams.</p><div class="tags"><span class="tag">Cost Management</span><span class="tag">Functions</span><span class="tag">FinOps</span></div><div class="actions"><a class="btn primary" href="mailto:jane.ologh@gmail.com?subject=Access%20request%3A%20Cloud%20Cost%20Anomaly%20Alerter&amp;body=Hi%20Jane%2C%0A%0AI%27d%20like%20to%20review%20the%20code%20for%3A%20Cloud%20Cost%20Anomaly%20Alerter%0A%0AName%3A%0ACompany%20/%20role%3A%0A%0AThanks">Request access</a></div></article>
+<article class="card"><h4>RankCore</h4><p>Tech skills and certification comparison site with a jobs ranking page. Runs on AWS with Terraform: EC2 and Docker, SSM, S3 backups, ECR, GitHub OIDC deploys, tflint and Checkov in CI.</p><div class="tags"><span class="tag">AWS</span><span class="tag">Terraform</span><span class="tag">Docker</span></div><div class="actions"><a class="btn primary" href="mailto:jane.ologh@gmail.com?subject=Access%20request%3A%20RankCore&amp;body=Hi%20Jane%2C%0A%0AI%27d%20like%20to%20review%20the%20code%20for%3A%20RankCore%0A%0AName%3A%0ACompany%20/%20role%3A%0A%0AThanks">Request access</a><a class="btn ghost" href="https://rankcore.app" target="_blank" rel="noopener">Visit site ↗</a></div></article>
+<article class="card"><h4>Cloud Engineering Toolkit</h4><p>Browser-based multi-cloud reference: CIDR calculator, Azure/AWS/GCP naming generators, NSG rule builder, Kubernetes manifest and Terraform backend generators.</p><div class="tags"><span class="tag">Multi-cloud</span><span class="tag">JavaScript</span></div><div class="actions"><a class="btn primary" href="mailto:jane.ologh@gmail.com?subject=Access%20request%3A%20Cloud%20Engineering%20Toolkit&amp;body=Hi%20Jane%2C%0A%0AI%27d%20like%20to%20review%20the%20code%20for%3A%20Cloud%20Engineering%20Toolkit%0A%0AName%3A%0ACompany%20/%20role%3A%0A%0AThanks">Request access</a></div></article>
+</div></div>
+<div class="group c3"><h3 class="group-title"><span class="dot"></span>Azure · IaC &amp; networking<span class="count">4</span></h3><div class="grid">
+<article class="card"><h4>Azure IaC Deployment with Bicep</h4><p>Modular Bicep deployment covering network segmentation, least-privilege NSGs, compute and Key Vault secrets isolation.</p><div class="tags"><span class="tag">Bicep</span><span class="tag">Networking</span></div><div class="actions"><a class="btn primary" href="mailto:jane.ologh@gmail.com?subject=Access%20request%3A%20Azure%20IaC%20Deployment%20with%20Bicep&amp;body=Hi%20Jane%2C%0A%0AI%27d%20like%20to%20review%20the%20code%20for%3A%20Azure%20IaC%20Deployment%20with%20Bicep%0A%0AName%3A%0ACompany%20/%20role%3A%0A%0AThanks">Request access</a></div></article>
+<article class="card"><h4>Cloud Network Foundation</h4><p>VNets, subnets, NSGs, application security groups, and public and private DNS zones in a live subscription.</p><div class="tags"><span class="tag">VNet</span><span class="tag">DNS</span></div><div class="actions"><a class="btn primary" href="mailto:jane.ologh@gmail.com?subject=Access%20request%3A%20Cloud%20Network%20Foundation&amp;body=Hi%20Jane%2C%0A%0AI%27d%20like%20to%20review%20the%20code%20for%3A%20Cloud%20Network%20Foundation%0A%0AName%3A%0ACompany%20/%20role%3A%0A%0AThanks">Request access</a></div></article>
+<article class="card"><h4>CI/CD Pipeline: GitHub Actions + Bicep</h4><p>Infrastructure as code deployed through GitHub Actions with OIDC federated authentication and zero stored secrets.</p><div class="tags"><span class="tag">OIDC</span><span class="tag">GitHub Actions</span></div><div class="actions"><a class="btn primary" href="mailto:jane.ologh@gmail.com?subject=Access%20request%3A%20CI/CD%20Pipeline%3A%20GitHub%20Actions%20%2B%20Bicep&amp;body=Hi%20Jane%2C%0A%0AI%27d%20like%20to%20review%20the%20code%20for%3A%20CI/CD%20Pipeline%3A%20GitHub%20Actions%20%2B%20Bicep%0A%0AName%3A%0ACompany%20/%20role%3A%0A%0AThanks">Request access</a></div></article>
+<article class="card"><h4>Monitoring &amp; Observability Capstone</h4><p>Unified Log Analytics workspace, diagnostic settings, KQL queries and a workbook across the whole portfolio.</p><div class="tags"><span class="tag">KQL</span><span class="tag">Log Analytics</span></div><div class="actions"><a class="btn primary" href="mailto:jane.ologh@gmail.com?subject=Access%20request%3A%20Monitoring%20%26%20Observability%20Capstone&amp;body=Hi%20Jane%2C%0A%0AI%27d%20like%20to%20review%20the%20code%20for%3A%20Monitoring%20%26%20Observability%20Capstone%0A%0AName%3A%0ACompany%20/%20role%3A%0A%0AThanks">Request access</a></div></article>
+</div></div>
+<div class="group c4"><h3 class="group-title"><span class="dot"></span>Azure · identity, governance &amp; security<span class="count">5</span></h3><div class="grid">
+<article class="card"><h4>RBAC &amp; Identity Baseline Governance</h4><p>Security Defaults, custom least-privilege RBAC roles and sign-in monitoring.</p><div class="tags"><span class="tag">Entra ID</span><span class="tag">RBAC</span></div><div class="actions"><a class="btn primary" href="mailto:jane.ologh@gmail.com?subject=Access%20request%3A%20RBAC%20%26%20Identity%20Baseline%20Governance&amp;body=Hi%20Jane%2C%0A%0AI%27d%20like%20to%20review%20the%20code%20for%3A%20RBAC%20%26%20Identity%20Baseline%20Governance%0A%0AName%3A%0ACompany%20/%20role%3A%0A%0AThanks">Request access</a></div></article>
+<article class="card"><h4>Cost Governance &amp; Tag Compliance</h4><p>Azure Policy tag enforcement, budgets and automated cost controls.</p><div class="tags"><span class="tag">Azure Policy</span><span class="tag">Budgets</span></div><div class="actions"><a class="btn primary" href="mailto:jane.ologh@gmail.com?subject=Access%20request%3A%20Cost%20Governance%20%26%20Tag%20Compliance&amp;body=Hi%20Jane%2C%0A%0AI%27d%20like%20to%20review%20the%20code%20for%3A%20Cost%20Governance%20%26%20Tag%20Compliance%0A%0AName%3A%0ACompany%20/%20role%3A%0A%0AThanks">Request access</a></div></article>
+<article class="card"><h4>Security Posture &amp; Secrets Management</h4><p>Defender for Cloud Secure Score improvements and Key Vault with RBAC authorisation.</p><div class="tags"><span class="tag">Defender for Cloud</span><span class="tag">Key Vault</span></div><div class="actions"><a class="btn primary" href="mailto:jane.ologh@gmail.com?subject=Access%20request%3A%20Security%20Posture%20%26%20Secrets%20Management&amp;body=Hi%20Jane%2C%0A%0AI%27d%20like%20to%20review%20the%20code%20for%3A%20Security%20Posture%20%26%20Secrets%20Management%0A%0AName%3A%0ACompany%20/%20role%3A%0A%0AThanks">Request access</a></div></article>
+<article class="card"><h4>Network Security &amp; Private Endpoints</h4><p>Least-privilege NSG segmentation and a Private Endpoint removing public storage access entirely.</p><div class="tags"><span class="tag">NSG</span><span class="tag">Private Link</span></div><div class="actions"><a class="btn primary" href="mailto:jane.ologh@gmail.com?subject=Access%20request%3A%20Network%20Security%20%26%20Private%20Endpoints&amp;body=Hi%20Jane%2C%0A%0AI%27d%20like%20to%20review%20the%20code%20for%3A%20Network%20Security%20%26%20Private%20Endpoints%0A%0AName%3A%0ACompany%20/%20role%3A%0A%0AThanks">Request access</a></div></article>
+<article class="card"><h4>Azure SQL Security Baseline</h4><p>Entra-only authentication, firewall restriction and audit logging.</p><div class="tags"><span class="tag">Azure SQL</span><span class="tag">Auditing</span></div><div class="actions"><a class="btn primary" href="mailto:jane.ologh@gmail.com?subject=Access%20request%3A%20Azure%20SQL%20Security%20Baseline&amp;body=Hi%20Jane%2C%0A%0AI%27d%20like%20to%20review%20the%20code%20for%3A%20Azure%20SQL%20Security%20Baseline%0A%0AName%3A%0ACompany%20/%20role%3A%0A%0AThanks">Request access</a></div></article>
+</div></div>
+<div class="group c5"><h3 class="group-title"><span class="dot"></span>Azure · data &amp; storage<span class="count">3</span></h3><div class="grid">
+<article class="card"><h4>On-Premise to Cloud Data Migration</h4><p>Storage design, redundancy trade-offs and lifecycle management.</p><div class="tags"><span class="tag">Azure Storage</span></div><div class="actions"><a class="btn primary" href="mailto:jane.ologh@gmail.com?subject=Access%20request%3A%20On-Premise%20to%20Cloud%20Data%20Migration&amp;body=Hi%20Jane%2C%0A%0AI%27d%20like%20to%20review%20the%20code%20for%3A%20On-Premise%20to%20Cloud%20Data%20Migration%0A%0AName%3A%0ACompany%20/%20role%3A%0A%0AThanks">Request access</a></div></article>
+<article class="card"><h4>Batch &amp; Streaming Data Pipeline</h4><p>Azure Data Factory batch ETL plus event-driven queue processing.</p><div class="tags"><span class="tag">Data Factory</span><span class="tag">Queues</span></div><div class="actions"><a class="btn primary" href="mailto:jane.ologh@gmail.com?subject=Access%20request%3A%20Batch%20%26%20Streaming%20Data%20Pipeline&amp;body=Hi%20Jane%2C%0A%0AI%27d%20like%20to%20review%20the%20code%20for%3A%20Batch%20%26%20Streaming%20Data%20Pipeline%0A%0AName%3A%0ACompany%20/%20role%3A%0A%0AThanks">Request access</a></div></article>
+<article class="card"><h4>Data Backup &amp; Recovery</h4><p>Soft delete, versioning and point-in-time restore, tested against simulated data loss.</p><div class="tags"><span class="tag">Resilience</span></div><div class="actions"><a class="btn primary" href="mailto:jane.ologh@gmail.com?subject=Access%20request%3A%20Data%20Backup%20%26%20Recovery&amp;body=Hi%20Jane%2C%0A%0AI%27d%20like%20to%20review%20the%20code%20for%3A%20Data%20Backup%20%26%20Recovery%0A%0AName%3A%0ACompany%20/%20role%3A%0A%0AThanks">Request access</a></div></article>
+</div></div>
+  </section>
+
+  <section id="skills">
+    <p class="kicker">Toolbox</p>
+    <h2>Skills</h2>
+    <div class="skills"><span class="skill">Azure administration &amp; security</span><span class="skill">AWS</span><span class="skill">Entra ID &amp; RBAC</span><span class="skill">Bicep</span><span class="skill">Terraform</span><span class="skill">GitHub Actions &amp; OIDC</span><span class="skill">CIS Benchmark &amp; CAF</span><span class="skill">FinOps</span><span class="skill">PowerShell</span><span class="skill">KQL &amp; observability</span><span class="skill">Network security</span><span class="skill">Database security</span><span class="skill">Docker</span></div>
+  </section>
+
+  <div class="cta-band" id="contact">
+    <a class="btn primary" href="mailto:jane.ologh@gmail.com?subject=Access%20request%3A%20portfolio&amp;body=Hi%20Jane%2C%0A%0AI%27d%20like%20to%20review%20the%20code%20for%3A%20portfolio%0A%0AName%3A%0ACompany%20/%20role%3A%0A%0AThanks">Request access</a>
+  </div>
+</main>
+
+<footer>© 2026 Jane Ologhadien · Updated November 2026</footer>
+</body>
+</html>
